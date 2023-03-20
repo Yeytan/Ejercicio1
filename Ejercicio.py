@@ -7,7 +7,7 @@ class Ejercicio:
         raiz.geometry("600x450")
     
 
-        mainFrame = Frame(raiz, relief="raised") 
+        mainFrame = Frame(raiz, relief="raised", background="RoyalBlue1") 
         mainFrame.pack(expand=True, fill="both")
 
         mainFrame3 = ttk.Frame(raiz, padding=" 30 0 30 0" ,relief="raised") 
